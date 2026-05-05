@@ -1,0 +1,27 @@
+{
+  "name": "pixlogix",
+  "version": "1.0.0",
+  "description": "Professional HTML & Tailwind CSS project for Care4Paws pet care services",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "tailwind",
+    "html",
+    "css"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "vite": "^8.0.10"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.0.16"
+  }
+}

@@ -1,0 +1,2035 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Care4Paws offers professional pet care services including grooming, boarding, training and veterinary support for dogs and cats.">
+    <meta name="author" content="Care4Paws by Pixlogix">
+    <meta name="theme-color" content="#1a73e8">
+    <meta property="og:title" content="Care4Paws | Professional Pet Care Services">
+    <meta property="og:description"
+        content="Trusted pet care for dogs and cats with grooming, boarding, training, and health support.">
+    <meta property="og:type" content="website">
+    <title>Care4Paws | Pet Care Services</title>
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-white text-dark">
+
+    <!-- Top Bar with Contact Info -->
+    <div class="w-full bg-[#f8fafd] border-b border-gray-100 py-2.5 px-6 hidden md:block">
+        <div class="max-w-[1360px] mx-auto px-6 lg:px-8 flex justify-between items-center text-[13px] tracking-wide">
+
+            <div class="flex items-center text-brand-dark">
+                <span class="font-bold mr-2">Opening Hours:</span>
+                <time class="text-brand-dark font-medium">Mon - Fri 9.00 - 5.00</time>
+            </div>
+
+            <div class="flex items-center divide-x divide-gray-300">
+                <div class="pr-4 flex items-center">
+                    <span class="font-bold mr-2">Email:</span>
+                    <a href="mailto:support@example.com"
+                        class="text-brand-dark font-medium hover:text-brand-primary transition">
+                        support@example.com
+                    </a>
+                </div>
+                <div class="pl-4 flex items-center">
+                    <span class="font-bold mr-2">Call us at:</span>
+                    <a href="tel:+8441234567890"
+                        class="text-brand-dark font-medium hover:text-brand-primary transition">
+                        +844 1234 567 890
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="bg-white sticky top-0 z-50 border-b border-gray-50">
+        <nav aria-label="Main navigation"
+            class="max-w-[1360px] mx-auto px-6 lg:px-8 h-[72px] md:h-[80px] lg:h-[90px] flex justify-between items-center">
+
+            <a href="#hero"
+                class="inline-flex items-center text-xl lg:text-2xl font-black tracking-tight text-brand-dark shrink-0">
+                <img loading="lazy" src="/logo.webp" alt="Care4Paws" class="h-7 lg:h-8 w-auto object-contain mr-2" />
+                <span class="text-brand-dark">Care4<span class="text-brand-primary">Paws</span></span>
+            </a>
+
+            <ul
+                class="hidden lg:flex items-center lg:space-x-5 xl:space-x-8 lg:text-[14px] xl:text-[15px] font-semibold">
+                <li><a href="#" class="text-brand-primary" aria-current="page">Home</a></li>
+                <li class="relative desktop-dropdown">
+                    <button type="button"
+                        class="desktop-dropdown-toggle flex items-center gap-1 text-brand-dark hover:text-brand-primary transition-colors font-semibold"
+                        aria-expanded="false" aria-haspopup="true" aria-controls="dropdown-about">
+                        About Us
+                        <i class="chevron-icon ml-1.5 fa-solid fa-chevron-down text-[10px] transition-transform duration-200"
+                            aria-hidden="true"></i>
+                    </button>
+                    <div id="dropdown-about"
+                        class="desktop-dropdown-content hidden absolute top-full left-0 mt-2 min-w-[200px] rounded-2xl bg-white border border-gray-200 shadow-lg py-3 z-50">
+                        <a href="#about"
+                            class="block px-4 py-2 text-brand-dark hover:text-brand-primary hover:bg-[#f8fafd] transition-colors">Our
+                            Story</a>
+                        <a href="#info"
+                            class="block px-4 py-2 text-brand-dark hover:text-brand-primary hover:bg-[#f8fafd] transition-colors">Pet
+                            Safety Tips</a>
+                        <a href="#team"
+                            class="block px-4 py-2 text-brand-dark hover:text-brand-primary hover:bg-[#f8fafd] transition-colors">Meet
+                            the Team</a>
+                    </div>
+                </li>
+                <li class="relative desktop-dropdown">
+                    <button type="button"
+                        class="desktop-dropdown-toggle flex items-center gap-1 text-brand-dark hover:text-brand-primary transition-colors font-semibold"
+                        aria-expanded="false" aria-haspopup="true" aria-controls="dropdown-services">
+                        Services
+                        <i class="chevron-icon ml-1.5 fa-solid fa-chevron-down text-[10px] transition-transform duration-200"
+                            aria-hidden="true"></i>
+                    </button>
+                    <div id="dropdown-services"
+                        class="desktop-dropdown-content hidden absolute top-full left-0 mt-2 min-w-[200px] rounded-2xl bg-white border border-gray-200 shadow-lg py-3 z-50">
+                        <a href="#services"
+                            class="block px-4 py-2 text-brand-dark hover:text-brand-primary hover:bg-[#f8fafd] transition-colors">Grooming</a>
+                        <a href="#services"
+                            class="block px-4 py-2 text-brand-dark hover:text-brand-primary hover:bg-[#f8fafd] transition-colors">Boarding</a>
+                        <a href="#services"
+                            class="block px-4 py-2 text-brand-dark hover:text-brand-primary hover:bg-[#f8fafd] transition-colors">Training</a>
+                    </div>
+                </li>
+                <li><a href="#moments" class="text-brand-dark hover:text-brand-primary transition-colors">Gallery</a>
+                </li>
+                <li><a href="#reviews"
+                        class="text-brand-dark hover:text-brand-primary transition-colors">Testimonials</a></li>
+                <li><a href="#faq" class="text-brand-dark hover:text-brand-primary transition-colors">Blog</a></li>
+            </ul>
+
+            <div class="flex items-center gap-3">
+                <button type="button"
+                    class="hidden lg:flex bg-brand-blue text-white pl-5 xl:pl-6 pr-2 py-[9px] rounded-full font-medium lg:text-[14px] xl:text-[15px] items-center gap-2 group hover:bg-brand-blueHover transition-all shadow-brand-btn shrink-0">
+                    <span>Book Now</span>
+                    <div
+                        class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300">
+                        <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                    </div>
+                </button>
+
+                <button type="button" id="menu-toggle" aria-label="Open mobile menu" aria-expanded="false"
+                    aria-controls="mobile-menu"
+                    class="p-2.5 rounded-full text-brand-dark hover:text-brand-blueHover transition-all lg:hidden">
+                    <i class="fa-solid fa-bars text-xl" aria-hidden="true"></i>
+                </button>
+            </div>
+        </nav>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-200 shadow-xl">
+            <div class="max-w-[1360px] mx-auto px-6 py-5">
+                <div class="flex items-center justify-between mb-1">
+                    <span class="text-lg font-bold text-brand-dark">Menu</span>
+                    <button type="button" id="menu-close" aria-label="Close mobile menu"
+                        class="p-2.5 rounded-full text-brand-dark hover:text-red-500 transition-all">
+                        <i class="fa-solid fa-xmark text-xl" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+                <nav aria-label="Mobile navigation" class="mt-4 space-y-2">
+                    <a href="#hero"
+                        class="block text-brand-primary font-semibold py-3 px-4 rounded-xl hover:bg-[#f8fafd] transition-colors"
+                        aria-current="page">Home</a>
+
+                    <div class="space-y-1">
+                        <button type="button"
+                            class="mobile-dropdown-toggle w-full flex items-center justify-between py-3 px-4 rounded-xl bg-[#f8fafd] text-brand-dark font-semibold border border-gray-200 hover:border-brand-primary hover:text-brand-primary transition-all"
+                            aria-expanded="false">
+                            About Us
+                            <i class="chevron-icon fa-solid fa-chevron-down text-sm transition-transform duration-200"
+                                aria-hidden="true"></i>
+                        </button>
+                        <ul class="mobile-dropdown-content hidden list-none p-0 space-y-2 mt-2 px-4">
+                            <li><a href="#about"
+                                    class="block text-brand-dark hover:text-brand-primary transition-colors py-1">Our
+                                    Story</a></li>
+                            <li><a href="#info"
+                                    class="block text-brand-dark hover:text-brand-primary transition-colors py-1">Pet
+                                    Safety Tips</a></li>
+                            <li><a href="#team"
+                                    class="block text-brand-dark hover:text-brand-primary transition-colors py-1">Meet
+                                    the Team</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="space-y-1">
+                        <button type="button"
+                            class="mobile-dropdown-toggle w-full flex items-center justify-between py-3 px-4 rounded-xl bg-[#f8fafd] text-brand-dark font-semibold border border-gray-200 hover:border-brand-primary hover:text-brand-primary transition-all"
+                            aria-expanded="false">
+                            Services
+                            <i class="chevron-icon fa-solid fa-chevron-down text-sm transition-transform duration-200"
+                                aria-hidden="true"></i>
+                        </button>
+                        <ul class="mobile-dropdown-content hidden list-none p-0 space-y-2 mt-2 px-4">
+                            <li><a href="#services"
+                                    class="block text-brand-dark hover:text-brand-primary transition-colors py-1">Grooming</a>
+                            </li>
+                            <li><a href="#services"
+                                    class="block text-brand-dark hover:text-brand-primary transition-colors py-1">Boarding</a>
+                            </li>
+                            <li><a href="#services"
+                                    class="block text-brand-dark hover:text-brand-primary transition-colors py-1">Training</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#moments"
+                        class="block text-brand-dark font-semibold py-3 px-4 rounded-xl hover:bg-[#f8fafd] transition-colors">Gallery</a>
+                    <a href="#reviews"
+                        class="block text-brand-dark font-semibold py-3 px-4 rounded-xl hover:bg-[#f8fafd] transition-colors">Testimonials</a>
+                    <a href="#faq"
+                        class="block text-brand-dark font-semibold py-3 px-4 rounded-xl hover:bg-[#f8fafd] transition-colors">Blog</a>
+
+                    <div class="pt-3 mt-3 border-t border-gray-100">
+                        <button type="button"
+                            class="bg-brand-blue w-full text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] flex items-center justify-between gap-2 group hover:bg-brand-blueHover transition-all">
+                            <span>Book Now</span>
+                            <div
+                                class="bg-white w-9 h-9 rounded-full flex items-center justify-center text-brand-primary">
+                                <i class="fa-solid fa-arrow-right text-xs -rotate-45 group-hover:rotate-0  transition-transform duration-300"
+                                    aria-hidden="true"></i>
+                            </div>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section id="hero" class="relative py-16 md:py-16 lg:py-20 overflow-hidden"
+            style="background-image: url('/images/main/heroBg.webp'); background-size: cover; background-position: center;">
+
+            <div class="container-custom relative z-10">
+                <div class="grid grid-cols-1 md:grid-cols-[5fr_7fr] gap-8 md:gap-10 items-center">
+
+                    <div data-animate
+                        class="flex flex-col items-center md:items-start text-center md:text-left space-y-6">
+                        <h1
+                            class="relative flex items-start -ml-0 md:-ml-9 text-2xl md:text-3xl lg:text-[37px] font-semibold text-brand-dark lg:leading-[54px]">
+                            <img loading="lazy" src="/icons/icon.svg" alt="" aria-hidden="true"
+                                class="w-7 h-7 md:w-9 md:h-9 flex-shrink-0 -mt-4" />
+                            <span>Where every
+                                <span class="text-brand-primary">paw gets the<br class="hidden md:block" /> love</span>
+                                it deserves</span>
+                        </h1>
+
+                        <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7 max-w-lg mx-auto md:mx-0">
+                            We provide safe, reliable, and professional care tailored for every pet. From playtime to
+                            medical checkups, your furry companion is in loving hands. Trust us to treat your pet like
+                            family—every step of the way.
+                        </p>
+
+                        <div class="pt-2 w-full md:w-auto flex justify-center md:justify-start">
+                            <button type="button"
+                                class="bg-brand-blue text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] flex items-center gap-2 group hover:bg-brand-blueHover transition-all shadow-brand-btn">
+                                <span>Schedule a Free Consultation</span>
+                                <span
+                                    class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300"
+                                    aria-hidden="true">
+                                    <i class="fa-solid fa-arrow-right text-xs"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div data-animate class="flex justify-center md:justify-end order-first md:order-last">
+                        <img src="/images/main/heroImg.webp"
+                            alt="A dog and cat receiving professional care at Care4Paws"
+                            class="w-full max-w-[360px] sm:max-w-[480px] md:max-w-none h-auto object-contain block"
+                            fetchpriority="high" decoding="async" />
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-8 md:py-20 bg-white relative overflow-hidden">
+            <div class="py-5 md:py-10 pointer-events-none absolute inset-0 z-0">
+
+
+                <img loading="lazy" src="/icons/dogFoot.svg" alt=""
+                    class="absolute top-[45%] left-[30%] w-12 opacity-50" />
+
+
+
+                <img loading="lazy" src="/icons/doubleDogIcon.svg" alt=""
+                    class="absolute top-1/2 right-1/4 w-40 opacity-90" />
+
+
+                <img loading="lazy" src="/icons/dogFoot.svg" alt=""
+                    class="absolute top-[15%] left-[65%] w-12 -rotate-90 opacity-50" />
+
+            </div>
+
+
+
+            <div class="relative z-10 container-custom">
+
+                <div
+                    class="flex flex-col md:flex-row justify-between items-center space-y-10 md:space-y-0 md:space-x-6 mb-20">
+
+                    <div class="hidden md:flex justify-center md:justify-start">
+                        <img loading="lazy" src="/images/main/aboutusimg.webp"
+                            class="w-32 md:w-56 h-auto object-contain" alt="dog" />
+                    </div>
+
+                    <div class="text-center px-4">
+                        <div data-animate class="space-y-6 relative">
+
+                            <h2
+                                class="relative inline-block text-2xl md:text-3xl lg:text-[46px] font-medium text-brand-dark lg:leading-[54px]">
+
+
+                                <img loading="lazy" src="/icons/icon.svg" alt=""
+                                    class="absolute -left-8 -top-2 w-7 h-7 md:w-9 md:h-9 md:-left-10 md:-top-3" />
+
+                                <span>How we make pet care simple and stress-free</span>
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center md:justify-end">
+                        <div class="relative w-[160px] md:w-[220px] h-[100px] md:h-[140px]">
+
+                            <div
+                                class="absolute -left-6 md:-left-10 top-0 w-24 h-24 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg overflow-hidden z-10">
+                                <img loading="lazy" src="/images/main/userFrame1.webp" alt="Pet owner"
+                                    class="w-full h-full object-cover" />
+                            </div>
+
+                            <div
+                                class="group absolute right-0 w-24 h-24 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg overflow-hidden z-20 cursor-pointer">
+
+                                <img loading="lazy" src="/images/main/userFrame2.webp" alt="About Us — Care4Paws team"
+                                    class="w-full h-full object-cover" />
+
+                                <div
+                                    class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300">
+                                </div>
+
+                                <div
+                                    class="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition">
+                                    <span class="text-xs md:text-sm font-semibold">About Us</span>
+                                    <i class="fa-solid fa-arrow-right mt-1 text-base" aria-hidden="true"></i>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-[38px]">
+
+
+                    <div data-animate class="flex items-center gap-4 sm:gap-5">
+                        <img loading="lazy" src="/icons/Info/icon-parent.svg" alt="Happy Pet Parents" aria-hidden="true"
+                            class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 flex-shrink-0" />
+                        <div>
+                            <h3 class="text-xl sm:text-3xl md:text-4xl font-bold text-brand-dark leading-none">1000+
+                            </h3>
+                            <p class="text-gray-400 text-sm mt-1">Happy Pet Parents</p>
+                        </div>
+                    </div>
+
+                    <div data-animate class="flex items-center gap-4 sm:gap-5">
+                        <img loading="lazy" src="/icons/Info/icon-pets.svg" alt="Happy Pets" aria-hidden="true"
+                            class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 flex-shrink-0" />
+                        <div>
+                            <h3 class="text-xl sm:text-3xl md:text-4xl font-bold text-brand-dark leading-none">1000+
+                            </h3>
+                            <p class="text-gray-400 text-sm mt-1">Happy Pets</p>
+                        </div>
+                    </div>
+
+                    <div data-animate class="flex items-center gap-4 sm:gap-5">
+                        <img loading="lazy" src="/icons/Info/icon-customer.svg" alt="Happy Customers" aria-hidden="true"
+                            class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 flex-shrink-0" />
+                        <div>
+                            <h3 class="text-xl sm:text-3xl md:text-4xl font-bold text-brand-dark leading-none">20K+</h3>
+                            <p class="text-gray-400 text-sm mt-1">Happy Customers</p>
+                        </div>
+                    </div>
+
+                    <div data-animate class="flex items-center gap-4 sm:gap-5">
+                        <img loading="lazy" src="/icons/Info/icon-employee.svg" alt="Employees" aria-hidden="true"
+                            class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 flex-shrink-0" />
+                        <div>
+                            <h3 class="text-xl sm:text-3xl md:text-4xl font-bold text-brand-dark leading-none">50+</h3>
+                            <p class="text-gray-400 text-sm mt-1">Employees</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Info Section -->
+        <section id="info" class="py-5 md:py-4 bg-white relative overflow-hidden">
+
+            <div class="py-10 md:py-20 pointer-events-none absolute inset-0 z-0 hidden sm:block">
+                <img loading="lazy" src="/icons/dogFoot.svg" alt=""
+                    class="absolute top-[15%] left-[35%] w-12 opacity-90" />
+                <img loading="lazy" src="/icons/haddi-orange.svg" alt=""
+                    class="absolute top-[45%] left-[60%] w-10 opacity-50" />
+                <img loading="lazy" src="/icons/haddi-orange.svg" alt=""
+                    class="absolute top-[65%] left-[25%] w-9 opacity-50" />
+                <img loading="lazy" src="/icons/dogFoot-orange.svg" alt=""
+                    class="absolute -rotate-90 top-[80%] left-[45%] w-13 opacity-50" />
+                <img loading="lazy" src="/icons/haddi-light.svg" alt=""
+                    class="absolute bottom-[70%] right-[10%] w-12 opacity-50" />
+                <img loading="lazy" src="/icons/dogFoot-orange.svg" alt=""
+                    class="absolute top-[15%] left-[65%] w-10 opacity-50" />
+            </div>
+
+            <div class="container-custom relative z-10">
+                <div class="grid md:grid-cols-2 gap-8 md:gap-[38px] items-center">
+
+                    <div class="flex justify-center md:justify-start order-2 md:order-1">
+                        <div class="relative w-full max-w-md">
+                            <img loading="lazy" src="/images/main/infoImg.webp" alt="A little bit about us"
+                                class="w-full h-auto object-cover">
+                        </div>
+                    </div>
+
+                    <div
+                        class="order-1 md:order-2 flex flex-col items-center md:items-start text-center md:text-left space-y-6">
+
+                        <div data-animate
+                            class="space-y-4 md:space-y-6 relative w-full flex flex-col items-center md:items-start">
+
+                            <div class="relative inline-block">
+                                <h2
+                                    class="relative flex items-start -ml-0 md:-ml-9 text-2xl md:text-3xl lg:text-[46px] font-medium text-brand-dark lg:leading-[54px]">
+                                    <img loading="lazy" src="/icons/icon.svg" alt=""
+                                        class="w-7 h-7 md:w-9 md:h-9 flex-shrink-0 -mt-4" />
+                                    <span>A little bit about us</span>
+                                </h2>
+                            </div>
+
+                            <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7 mx-auto md:mx-0">
+                                We provide safe, reliable, and professional care tailored for every pet. From playtime
+                                to
+                                medical checkups, your furry companion is in loving hands. Trust us to treat your pet
+                                like
+                                family—every step of the way.
+                            </p>
+
+                            <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7 mx-auto md:mx-0">
+                                Offering exceptional love, attention, and expert care to keep your pets comfortable,
+                                healthy, and thriving.
+                            </p>
+
+                            <div class="pt-2 w-full flex justify-center md:justify-start">
+                                <button type="button"
+                                    class="bg-brand-blue text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] flex items-center gap-2 group hover:bg-brand-blueHover transition-all shadow-brand-btn">
+                                    <span>Schedule a Free Consultation</span>
+                                    <div
+                                        class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300">
+                                        <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Pet Care Services Section -->
+        <section id="services" class="py-20 md:py-28 relative overflow-hidden">
+            <div class="absolute inset-0 md:hidden" style="
+                background-image:
+                    url('/images/main/serviceBg-mobilescreen.webp'),
+                    url('/images/main/serviceBg-mobilescreen-Repeated.webp');
+                background-size:   100% auto, 100% auto;
+                background-repeat: no-repeat,  repeat-y;
+                background-position: top center, top center;
+            " aria-hidden="true"></div>
+            <div class="absolute inset-0 hidden md:block bg-cover bg-top"
+                style="background-image: url('/images/main/serviceBg.webp');" aria-hidden="true"></div>
+
+            <div class="container-custom mt-[40px] md:mt-20 relative z-10">
+
+                <div class="text-center mb-10">
+
+
+                    <div class="relative inline-block">
+                        <h2
+                            class="relative flex items-start -ml-0 md:-ml-9 text-2xl md:text-3xl lg:text-[46px] font-medium text-brand-dark lg:leading-[54px]">
+                            <img loading="lazy" src="/icons/icon.svg" alt=""
+                                class="w-7 h-7 md:w-9 md:h-9 flex-shrink-0 -mt-4" />
+                            <span>Our pet care services</span>
+                        </h2>
+                    </div>
+
+
+
+
+
+                    <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7 max-w-2xl mx-auto mt-3">
+                        Our pet care services offer loving, professional attention to keep your furry friends happy and
+                        healthy. From grooming to daily care, we treat every pet like family.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-[38px] mb-14">
+
+                    <article data-animate
+                        class="relative bg-white rounded-2xl overflow-visible border border-gray-200 shadow-sm transition-shadow flex flex-col h-full">
+
+                        <div class="relative p-1 w-full h-64">
+                            <img loading="lazy" src="/images/service/service (1).webp" alt="Pet grooming session"
+                                class="w-full rounded-xl h-full object-cover" />
+                        </div>
+
+                        <div class="p-6 mb-6 flex flex-col flex-grow">
+                            <div>
+                                <h3 class="text-2xl font-bold text-brand-dark mb-3">Pet Grooming</h3>
+                                <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7">
+                                    We provide safe, reliable, and professional care tailored for every pet. From
+                                    playtime
+                                    to medical checkups, is in loving hands.
+                                </p>
+                            </div>
+                        </div>
+
+                        <img loading="lazy" src="/images/service/cornerImg.webp" alt="" aria-hidden="true"
+                            class="absolute bottom-0 right-0 p-2 w-[15%] opacity-90 pointer-events-none select-none z-0" />
+
+                        <button type="button"
+                            class="group absolute z-10 -bottom-5 left-6 inline-flex gap-2 items-center bg-brand-blue text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] shadow-lg hover:bg-brand-blueHover transition-all">
+                            <span>Read More</span>
+                            <span
+                                class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300"
+                                aria-hidden="true">
+                                <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article data-animate
+                        class="relative bg-white rounded-2xl overflow-visible border border-gray-200 shadow-sm transition-shadow flex flex-col h-full">
+
+                        <div class="relative p-1 w-full h-64">
+                            <img loading="lazy" src="/images/service/service (2).webp" alt="Pets hotel accommodation"
+                                class="w-full rounded-xl h-full object-cover" />
+                        </div>
+
+                        <div class="p-6 mb-6 flex flex-col flex-grow">
+                            <div>
+                                <h3 class="text-2xl font-bold text-brand-dark mb-3">PetsHotel</h3>
+                                <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7">
+                                    We provide safe, reliable, and professional care tailored for every pet. From
+                                    playtime
+                                    to medical checkups, is in loving hands.
+                                </p>
+                            </div>
+                        </div>
+
+                        <img loading="lazy" src="/images/service/cornerImg.webp" alt="" aria-hidden="true"
+                            class="absolute bottom-0 right-0 p-2 w-[15%] opacity-90 pointer-events-none select-none z-0" />
+
+                        <button type="button"
+                            class="group absolute z-10 -bottom-5 left-6 inline-flex gap-2 items-center bg-brand-blue text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] shadow-lg hover:bg-brand-blueHover transition-all">
+                            <span>Read More</span>
+                            <span
+                                class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300"
+                                aria-hidden="true">
+                                <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </article>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[38px] pb-8">
+
+                    <article data-animate
+                        class="relative bg-white rounded-2xl overflow-visible border border-gray-200 shadow-sm transition-shadow flex flex-col h-full">
+
+                        <div class="relative p-1 w-full h-64">
+                            <img loading="lazy" src="/images/service/service (3).webp" alt="Doggie day camp activities"
+                                class="w-full rounded-xl h-full object-cover" />
+                        </div>
+
+                        <div class="p-6 mb-6 flex flex-col flex-grow">
+                            <div>
+                                <h3 class="text-2xl font-bold text-brand-dark mb-3">Doggie Day Camp</h3>
+                                <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7">
+                                    We provide safe, reliable, and professional care tailored for every pet. From
+                                    playtime
+                                    to medical checkups, is in loving hands.
+                                </p>
+                            </div>
+                        </div>
+
+                        <img loading="lazy" src="/images/service/cornerImg.webp" alt="" aria-hidden="true"
+                            class="absolute bottom-0 right-0 p-2 w-[15%] opacity-90 pointer-events-none select-none z-0" />
+
+                        <button type="button"
+                            class="group absolute z-10 -bottom-5 left-6 inline-flex gap-2 items-center bg-brand-blue text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] shadow-lg hover:bg-brand-blueHover transition-all">
+                            <span>Read More</span>
+                            <span
+                                class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300"
+                                aria-hidden="true">
+                                <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article data-animate
+                        class="relative bg-white rounded-2xl overflow-visible border border-gray-200 shadow-sm transition-shadow flex flex-col h-full">
+
+                        <div class="relative p-1 w-full h-64">
+                            <img loading="lazy" src="/images/service/service (4).webp" alt="Dog training class"
+                                class="w-full rounded-xl h-full object-cover" />
+                        </div>
+
+                        <div class="p-6 mb-6 flex flex-col flex-grow">
+                            <div>
+                                <h3 class="text-2xl font-bold text-brand-dark mb-3">Dog Training</h3>
+                                <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7">
+                                    We provide safe, reliable, and professional care tailored for every pet. From
+                                    playtime
+                                    to medical checkups, is in loving hands.
+                                </p>
+                            </div>
+                        </div>
+
+                        <img loading="lazy" src="/images/service/cornerImg.webp" alt="" aria-hidden="true"
+                            class="absolute bottom-0 right-0 p-2 w-[15%] opacity-90 pointer-events-none select-none z-0" />
+
+                        <button type="button"
+                            class="group absolute z-10 -bottom-5 left-6 inline-flex gap-2 items-center bg-brand-blue text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] shadow-lg hover:bg-brand-blueHover transition-all">
+                            <span>Read More</span>
+                            <span
+                                class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300"
+                                aria-hidden="true">
+                                <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article data-animate
+                        class="relative bg-white rounded-2xl overflow-visible border border-gray-200 shadow-sm transition-shadow flex flex-col h-full">
+
+                        <div class="relative p-1 w-full h-64">
+                            <img loading="lazy" src="/images/service/service (5).webp" alt="Veterinary care examination"
+                                class="w-full rounded-xl h-full object-cover" />
+                        </div>
+
+                        <div class="p-6 mb-6 flex flex-col flex-grow">
+                            <div>
+                                <h3 class="text-2xl font-bold text-brand-dark mb-3">Veterinary Care</h3>
+                                <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7">
+                                    We provide safe, reliable, and professional care tailored for every pet. From
+                                    playtime
+                                    to medical checkups, is in loving hands.
+                                </p>
+                            </div>
+                        </div>
+
+                        <img loading="lazy" src="/images/service/cornerImg.webp" alt="" aria-hidden="true"
+                            class="absolute bottom-0 right-0 p-2 w-[15%] opacity-90 pointer-events-none select-none z-0" />
+
+                        <button type="button"
+                            class="group absolute z-10 -bottom-5 left-6 inline-flex gap-2 items-center bg-brand-blue text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] shadow-lg hover:bg-brand-blueHover transition-all">
+                            <span>Read More</span>
+                            <span
+                                class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300"
+                                aria-hidden="true">
+                                <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Why Us Section -->
+        <section id="why-us" class="py-12 md:py-16 lg:py-24 bg-white relative overflow-hidden">
+
+            <div class="pointer-events-none absolute inset-0 z-0" aria-hidden="true">
+                <img loading="lazy" src="/icons/dogFoot.svg" alt=""
+                    class="absolute top-[8%] right-[8%] w-12 opacity-50" />
+                <img loading="lazy" src="/icons/haddi-light.svg" alt=""
+                    class="absolute top-[18%] right-[3%] w-10 opacity-40" />
+                <img loading="lazy" src="/icons/dogFoot-orange.svg" alt=""
+                    class="absolute top-[55%] right-[30%] w-8 opacity-50" />
+                <img loading="lazy" src="/icons/dogFoot.svg" alt=""
+                    class="absolute bottom-[10%] right-[5%] w-10 opacity-40" />
+                <img loading="lazy" src="/icons/haddi-light.svg" alt=""
+                    class="absolute bottom-[6%] left-[4%] w-10 opacity-30" />
+            </div>
+
+            <div class="container-custom relative z-10">
+
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-[auto_1fr] gap-x-10 lg:gap-x-16 gap-y-8 md:gap-y-6">
+
+                    <div class="order-1 md:col-start-1 md:row-start-1
+                            flex flex-col items-center md:items-start text-center md:text-left">
+                        <div data-animate>
+                            <h2
+                                class="relative flex items-start -ml-0 md:-ml-9 text-2xl md:text-3xl lg:text-[46px] font-medium text-brand-dark lg:leading-[54px]">
+                                <img loading="lazy" src="/icons/icon.svg" alt="" aria-hidden="true"
+                                    class="w-7 h-7 md:w-9 md:h-9 flex-shrink-0 -mt-4" />
+                                <span>How to get started</span>
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="order-2 md:col-start-2 md:row-start-1 md:row-span-2
+                            flex justify-center md:justify-end items-center py-4 md:py-0">
+                        <div class="relative w-full max-w-[380px] md:max-w-none">
+
+                            <div class="absolute inset-0" aria-hidden="true"></div>
+
+                            <img loading="lazy" src="/images/main/startedImg.webp"
+                                alt="Woman smiling with her dog while scheduling a pet care appointment"
+                                class="relative z-10 block w-full h-auto object-cover" />
+                        </div>
+                    </div>
+
+                    <div class="order-3 md:col-start-1 md:row-start-2
+                            flex flex-col items-center md:items-start text-center md:text-left space-y-8">
+
+                        <div class="space-y-8 w-full">
+
+                            <div data-animate
+                                class="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="blob-shape w-14 h-14 md:w-16 md:h-16 bg-[#E6EFF4] text-brand-dark flex items-center justify-center font-bold text-lg md:text-xl shadow-sm">
+                                        <span class="inline-block rotate-[5deg] select-none">1</span>
+                                    </div>
+                                </div>
+                                <div class="flex-grow">
+                                    <h3 class="text-xl md:text-xl font-bold text-brand-dark mb-2">
+                                        Pick the Perfect Service
+                                    </h3>
+                                    <p
+                                        class="text-brand-dark text-[16px]  md:text-[18px] leading-7 max-w-md mx-auto md:mx-0">
+                                        Explore our range of pet care options to find what suits your pet best. From
+                                        daycare
+                                        to overnight stays, we've got you covered.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div data-animate
+                                class="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="blob-shape w-14 h-14 md:w-16 md:h-16 bg-[#E6EFF4] text-brand-dark flex items-center justify-center font-bold text-lg md:text-xl shadow-sm">
+                                        <span class="inline-block rotate-[5deg] select-none">2</span>
+                                    </div>
+                                </div>
+                                <div class="flex-grow">
+                                    <h3 class="text-xl md:text-xl font-bold text-brand-dark mb-2">
+                                        Schedule with Ease
+                                    </h3>
+                                    <p
+                                        class="text-brand-dark text-[16px]  md:text-[18px] leading-7 max-w-md mx-auto md:mx-0">
+                                        Book your desired time online or by phone—it's fast and flexible. We'll confirm
+                                        the
+                                        details and answer any questions you have.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div data-animate
+                                class="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="blob-shape w-14 h-14 md:w-16 md:h-16 bg-[#E6EFF4] text-brand-dark flex items-center justify-center font-bold text-lg md:text-xl shadow-sm">
+                                        <span class="inline-block rotate-[5deg] select-none">3</span>
+                                    </div>
+                                </div>
+                                <div class="flex-grow">
+                                    <h3 class="text-xl md:text-xl font-bold text-brand-dark mb-2">
+                                        Drop Off & Relax
+                                    </h3>
+                                    <p
+                                        class="text-brand-dark text-[16px]  md:text-[18px] leading-7 max-w-md mx-auto md:mx-0">
+                                        Bring your pet in and we'll take it from there with love and care. You can relax
+                                        knowing your furry friend is in safe hands.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="pt-4 w-full flex justify-center md:justify-start">
+                            <button type="button"
+                                class="bg-brand-blue text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] flex items-center gap-2 group hover:bg-brand-blueHover transition-all shadow-brand-btn">
+                                <span>Schedule a Free Consultation</span>
+                                <span
+                                    class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300"
+                                    aria-hidden="true">
+                                    <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Meet the Team Section -->
+        <section id="team" class="py-8 md:py-12 bg-white relative overflow-hidden">
+
+            <div class="py-10 md:py-20 pointer-events-none absolute inset-0 z-0 hidden sm:block">
+                <img loading="lazy" src="/icons/dogFoot.svg" alt=""
+                    class="absolute top-[15%] left-[35%] w-12 opacity-90" />
+                <img loading="lazy" src="/icons/dogFoot-orange.svg" alt=""
+                    class="absolute top-[10%] left-[10%] w-10 opacity-50" />
+                <img loading="lazy" src="/icons/haddi-orange.svg" alt=""
+                    class="absolute top-[45%] left-[60%] w-10 opacity-50" />
+                <img loading="lazy" src="/icons/haddi-orange.svg" alt=""
+                    class="absolute top-[65%] left-[25%] w-9 opacity-50" />
+                <img loading="lazy" src="/icons/dogFoot-orange.svg" alt=""
+                    class="absolute -rotate-90 top-[80%] left-[45%] w-13 opacity-50" />
+                <img loading="lazy" src="/icons/haddi-light.svg" alt=""
+                    class="absolute bottom-[70%] right-[10%] w-12 opacity-50" />
+                <img loading="lazy" src="/icons/dogFoot-orange.svg" alt=""
+                    class="absolute top-[15%] left-[70%] w-10 opacity-50" />
+            </div>
+
+            <div class=" relative z-10">
+
+                <div class="container-custom text-center mb-12">
+
+                    <h2
+                        class="relative inline-block text-2xl md:text-3xl lg:text-[46px] font-medium text-brand-dark lg:leading-[54px]">
+
+                        <img loading="lazy" src="/icons/icon.svg" alt=""
+                            class="absolute -left-8 -top-2 w-7 h-7 md:w-9 md:h-9 md:-left-10 md:-top-3" />
+
+                        <span>Meet the hearts behind the care</span>
+                    </h2>
+                    <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7 max-w-2xl mx-auto mt-3">
+                        Our dedicated team of pet lovers is what sets us apart. From expert vets to loving caregivers,
+                        every
+                        member is here to treat your pet like family.
+                    </p>
+                </div>
+
+                <!-- Meet the Team Slider -->
+                <div class="relative px-8 sm:px-12">
+
+                    <div class="overflow-hidden">
+                        <div id="teamSlider" class="flex gap-[38px] transition-transform duration-500 ease-out">
+
+                            <div class="flex-shrink-0 w-full sm:w-[calc(50%-19px)] lg:w-[calc(25%-28.5px)]">
+                                <article data-animate class="overflow-hidden">
+                                    <div class="relative h-68 md:h-82 overflow-hidden">
+                                        <img loading="lazy" src="/images/team/member (1).webp" alt="Emily Torres"
+                                            class="w-full h-full object-cover rounded-2xl">
+                                        <button type="button"
+                                            class="team-nav-btn absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-brand-primary hover:text-white transition-all opacity-0 group-hover:opacity-100">
+                                            <i class="fa-solid fa-chevron-down text-xs"></i>
+                                        </button>
+                                    </div>
+                                    <div class="p-6 text-center">
+                                        <h3 class="text-xl font-bold text-brand-dark mb-1">Emily Torres</h3>
+                                        <p class="text-gray-400 font-medium text-sm mb-4">Veterinarian</p>
+                                        <div class="flex justify-center gap-3">
+                                            <a href="#" aria-label="Facebook"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-facebook-f text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="LinkedIn"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-linkedin-in text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="Instagram"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-instagram text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="X (Twitter)"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-x-twitter text-xs"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-[calc(50%-19px)] lg:w-[calc(25%-28.5px)]">
+                                <article data-animate class="overflow-hidden">
+                                    <div class="relative h-68 md:h-82 overflow-hidden">
+                                        <img loading="lazy" src="/images/team/member (2).webp" alt="Esther Howard"
+                                            class="w-full h-full object-cover rounded-2xl">
+                                        <button type="button"
+                                            class="team-nav-btn absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-brand-primary hover:text-white transition-all opacity-0 group-hover:opacity-100">
+                                            <i class="fa-solid fa-chevron-down text-xs"></i>
+                                        </button>
+                                    </div>
+                                    <div class="p-6 text-center">
+                                        <h3 class="text-xl font-bold text-brand-dark mb-1">Esther Howard</h3>
+                                        <p class="text-gray-400 font-medium text-sm mb-4">Marketing Officer</p>
+                                        <div class="flex justify-center gap-3">
+                                            <a href="#" aria-label="Facebook"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-facebook-f text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="LinkedIn"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-linkedin-in text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="Instagram"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-instagram text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="X (Twitter)"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-x-twitter text-xs"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-[calc(50%-19px)] lg:w-[calc(25%-28.5px)]">
+                                <article data-animate class="overflow-hidden">
+                                    <div class="relative h-68 md:h-82 overflow-hidden">
+                                        <img loading="lazy" src="/images/team/member (3).webp" alt="Hilixer Brown"
+                                            class="w-full h-full object-cover rounded-2xl">
+                                        <button type="button"
+                                            class="team-nav-btn absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-brand-primary hover:text-white transition-all opacity-0 group-hover:opacity-100">
+                                            <i class="fa-solid fa-chevron-down text-xs"></i>
+                                        </button>
+                                    </div>
+                                    <div class="p-6 text-center">
+                                        <h3 class="text-xl font-bold text-brand-dark mb-1">Hilixer Brown</h3>
+                                        <p class="text-gray-400 font-medium text-sm mb-4">Groomer</p>
+                                        <div class="flex justify-center gap-3">
+                                            <a href="#" aria-label="Facebook"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-facebook-f text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="LinkedIn"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-linkedin-in text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="Instagram"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-instagram text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="X (Twitter)"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-x-twitter text-xs"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-[calc(50%-19px)] lg:w-[calc(25%-28.5px)]">
+                                <article data-animate class="overflow-hidden">
+                                    <div class="relative h-68 md:h-82 overflow-hidden">
+                                        <img loading="lazy" src="/images/team/member (4).webp" alt="Brooklyn Simmons"
+                                            class="w-full h-full object-cover rounded-2xl">
+                                        <button type="button"
+                                            class="team-nav-btn absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-brand-primary hover:text-white transition-all opacity-0 group-hover:opacity-100">
+                                            <i class="fa-solid fa-chevron-down text-xs"></i>
+                                        </button>
+                                    </div>
+                                    <div class="p-6 text-center">
+                                        <h3 class="text-xl font-bold text-brand-dark mb-1">Brooklyn Simmons</h3>
+                                        <p class="text-gray-400 font-medium text-sm mb-4">Expert Care Tacker</p>
+                                        <div class="flex justify-center gap-3">
+                                            <a href="#" aria-label="Facebook"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-facebook-f text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="LinkedIn"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-linkedin-in text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="Instagram"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-instagram text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="X (Twitter)"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-x-twitter text-xs"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-[calc(50%-19px)] lg:w-[calc(25%-28.5px)]">
+                                <article data-animate class="overflow-hidden">
+                                    <div class="relative h-68 md:h-82 overflow-hidden">
+                                        <img loading="lazy" src="/images/team/member (2).webp" alt="Mason Clark"
+                                            class="w-full h-full object-cover rounded-2xl">
+                                        <button type="button"
+                                            class="team-nav-btn absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-brand-primary hover:text-white transition-all opacity-0 group-hover:opacity-100">
+                                            <i class="fa-solid fa-chevron-down text-xs"></i>
+                                        </button>
+                                    </div>
+                                    <div class="p-6 text-center">
+                                        <h3 class="text-xl font-bold text-brand-dark mb-1">Mason Clark</h3>
+                                        <p class="text-gray-400 font-medium text-sm mb-4">Pet Nutritionist</p>
+                                        <div class="flex justify-center gap-3">
+                                            <a href="#" aria-label="Facebook"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-facebook-f text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="LinkedIn"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-linkedin-in text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="Instagram"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-instagram text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="X (Twitter)"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-x-twitter text-xs"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-[calc(50%-19px)] lg:w-[calc(25%-28.5px)]">
+                                <article data-animate class="overflow-hidden">
+                                    <div class="relative h-68 md:h-82 overflow-hidden">
+                                        <img loading="lazy" src="/images/team/member (3).webp" alt="Olivia Hayes"
+                                            class="w-full h-full object-cover rounded-2xl">
+                                        <button type="button"
+                                            class="team-nav-btn absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-brand-primary hover:text-white transition-all opacity-0 group-hover:opacity-100">
+                                            <i class="fa-solid fa-chevron-down text-xs"></i>
+                                        </button>
+                                    </div>
+                                    <div class="p-6 text-center">
+                                        <h3 class="text-xl font-bold text-brand-dark mb-1">Olivia Hayes</h3>
+                                        <p class="text-gray-400 font-medium text-sm mb-4">Wellness Consultant</p>
+                                        <div class="flex justify-center gap-3">
+                                            <a href="#" aria-label="Facebook"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-facebook-f text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="LinkedIn"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-linkedin-in text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="Instagram"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-instagram text-xs"></i>
+                                            </a>
+                                            <a href="#" aria-label="X (Twitter)"
+                                                class="w-8 h-8 rounded-full bg-[#FFF3F0] flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition">
+                                                <i class="fa-brands fa-x-twitter text-xs"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <button type="button" id="teamPrevBtn"
+                        class="absolute left-[8%] sm:left-[12%] top-1/3 -translate-y-1/2 z-20 bg-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-brand-primary hover:text-white transition-all shadow-lg"
+                        aria-label="Previous team member">
+                        <i class="fa-solid fa-arrow-left text-sm"></i>
+                    </button>
+
+                    <button type="button" id="teamNextBtn"
+                        class="absolute right-[8%] sm:right-[12%] top-1/3 -translate-y-1/2 z-20 bg-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-brand-primary hover:text-white transition-all shadow-lg"
+                        aria-label="Next team member">
+                        <i class="fa-solid fa-arrow-right text-sm"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Happy Pets Reviews Section -->
+        <section id="reviews" class="py-12 md:py-52 relative overflow-hidden bg-no-repeat"
+            style="background-image: url('/images/main/reviewBg.webp'); background-size: cover; background-position:top center;">
+
+            <div class="absolute inset-0 md:bg-transparent"></div>
+
+            <div class="w-full pt-24 relative z-10">
+                <div class="text-center mt-24 sm:mt-6 md:mt-2 lg:mt-0 mb-10 px-6 lg:px-8">
+
+                    <h2
+                        class="relative inline-block text-2xl md:text-3xl lg:text-[46px] font-medium text-brand-dark lg:leading-[54px]">
+
+                        <img loading="lazy" src="/icons/icon.svg" alt=""
+                            class="absolute -left-8 -top-2 w-7 h-7 md:w-9 md:h-9 md:-left-10 md:-top-3" />
+
+                        <span>Happy pets, happier people</span>
+                    </h2>
+
+
+                    <p class="text-brand-dark pt-4 text-[18px] leading-7 max-w-3xl mx-auto">
+                        When pets feel loved, safe, and well-cared for, their joy shines through. We're here to make
+                        tails
+                        wag—and bring peace of mind to every pet parent.
+                    </p>
+                </div>
+
+                <div class="flex flex-col px-8 sm:px-12 md:flex-row items-center md:items-stretch">
+
+                    <div class="hidden md:flex w-[28%] flex-shrink-0">
+                        <div class="relative w-full h-full">
+                            <div class="relative overflow-hidden h-full">
+                                <img loading="lazy" src="/images/main/reviewImg.webp" alt="Happy Pet Owner"
+                                    class="w-full h-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hidden md:flex w-[8%] items-start justify-center flex-shrink-0 pt-8">
+                        <img loading="lazy" src="/icons/quetosIcon.svg" alt="quote icon"
+                            class="h-28 w-auto object-contain opacity-90" />
+                    </div>
+
+                    <div class="w-full md:w-[64%] flex flex-col px-6 lg:px-8">
+
+                        <div class="flex gap-5 mb-6 justify-center md:justify-end">
+                            <button type="button" id="reviewPrevBtn"
+                                class="text-brand-primary rounded-full w-10 h-10 flex items-center justify-center hover:bg-brand-primary hover:text-white transition-all"
+                                aria-label="Previous review">
+                                <i class="fa-solid fa-arrow-left text-md" aria-hidden="true"></i>
+                            </button>
+                            <button type="button" id="reviewNextBtn"
+                                class="text-brand-primary rounded-full w-10 h-10 flex items-center justify-center hover:bg-brand-primary hover:text-white transition-all"
+                                aria-label="Next review">
+                                <i class="fa-solid fa-arrow-right text-md" aria-hidden="true"></i>
+                            </button>
+                        </div>
+
+                        <div class="overflow-hidden">
+                            <div id="reviewSlider" class="flex transition-transform duration-500 ease-out">
+                                <article class="review-card flex-shrink-0 w-full md:w-1/2 px-2">
+                                    <div
+                                        class="bg-white rounded-2xl p-6 border border-[#E5C6BF] h-full flex flex-col shadow-sm">
+                                        <div class="flex items-center gap-0.5 mb-6" aria-label="5 out of 5 stars">
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                        <blockquote class="text-brand-dark text-[16px] leading-7 mb-8 flex-grow">
+                                            "The grooming service here is top-notch! My poodle, Bella, usually hates
+                                            being
+                                            brushed, but she came back looking like a superstar and smelling amazing."
+                                        </blockquote>
+                                        <div class="flex items-center mb-2 gap-3">
+                                            <img loading="lazy" src="/images/team/member (4).webp" alt="Sarah Jenkins"
+                                                class="w-10 h-10 rounded-full object-cover">
+                                            <div>
+                                                <h4 class="font-bold text-brand-dark text-sm">Sarah Jenkins</h4>
+                                                <p class="text-brand-dark text-[12px] tracking-wider">Poodle Owner,
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="review-card flex-shrink-0 w-full md:w-1/2 px-2">
+                                    <div
+                                        class="bg-white rounded-2xl p-6 border border-[#E5C6BF] h-full flex flex-col shadow-sm">
+                                        <div class="flex items-center gap-0.5 mb-6" aria-label="4.5 out of 5 stars">
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star-half-stroke text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                        <blockquote class="text-brand-dark text-[16px] leading-7 mb-8 flex-grow">
+                                            "I love the transparent pricing and the easy booking app. It’s so hard to
+                                            find a
+                                            place that handles older dogs with such patience and genuine care."
+                                        </blockquote>
+                                        <div class="flex items-center mb-2 gap-3">
+                                            <img loading="lazy" src="/images/team/member (1).webp" alt="Marcus Chen"
+                                                class="w-10 h-10 rounded-full object-cover">
+                                            <div>
+                                                <h4 class="font-bold text-brand-dark text-sm">Marcus Chen</h4>
+                                                <p class="text-brand-dark text-[12px] tracking-wider">Labrador
+                                                    Owner, Sydney</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="review-card flex-shrink-0 w-full md:w-1/2 px-2">
+                                    <div
+                                        class="bg-white rounded-2xl p-6 border border-[#E5C6BF] h-full flex flex-col shadow-sm">
+                                        <div class="flex items-center gap-0.5 mb-6" aria-label="5 out of 5 stars">
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                        <blockquote class="text-brand-dark text-[16px] leading-7 mb-8 flex-grow">
+                                            "Finding a place that understands bird care is rare. They kept my parrot,
+                                            Kiwi,
+                                            entertained and on her strict diet while I was away. Truly impressed!"
+                                        </blockquote>
+                                        <div class="flex items-center mb-2 gap-3">
+                                            <img loading="lazy" src="/images/team/member (2).webp" alt="Elena Rodriguez"
+                                                class="w-10 h-10 rounded-full object-cover">
+                                            <div>
+                                                <h4 class="font-bold text-brand-dark text-sm">Elena Rodriguez</h4>
+                                                <p class="text-brand-dark text-[12px] tracking-wider">Bird Parent,
+                                                    Madrid</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="review-card flex-shrink-0 w-full md:w-1/2 px-2">
+                                    <div
+                                        class="bg-white rounded-2xl p-6 border border-[#E5C6BF] h-full flex flex-col shadow-sm">
+                                        <div class="flex items-center gap-0.5 mb-6" aria-label="5 out of 5 stars">
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                            <i class="fa-solid fa-star text-sm text-brand-primary"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                        <blockquote class="text-brand-dark text-[16px] leading-7 mb-8 flex-grow">
+                                            "The 24/7 video access is a game changer! Being able to see my kitten
+                                            playing
+                                            and sleeping comfortably made my work trip so much easier to handle."
+                                        </blockquote>
+                                        <div class="flex items-center mb-2 gap-3">
+                                            <img loading="lazy" src="/images/team/member (3).webp" alt="James Wilson"
+                                                class="w-10 h-10 rounded-full object-cover">
+                                            <div>
+                                                <h4 class="font-bold text-brand-dark text-sm">James Wilson</h4>
+                                                <p class="text-brand-dark text-[12px] tracking-wider">Cat Owner,
+                                                    Toronto</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Curious Section -->
+        <section id="faq" class="py-12 md:py-16 bg-white relative overflow-hidden">
+
+            <div class="pointer-events-none absolute inset-0 z-0">
+                <img loading="lazy" src="/icons/dogFoot.svg" alt=""
+                    class="absolute top-[12%] left-[6%] w-10 opacity-70" />
+                <img loading="lazy" src="/icons/haddi-light.svg" alt=""
+                    class="absolute top-[25%] right-[18%] w-12 opacity-60" />
+                <img loading="lazy" src="/icons/dogFoot-orange.svg" alt=""
+                    class="absolute bottom-[18%] left-[10%] w-8 opacity-50" />
+                <img loading="lazy" src="/icons/dogFoot.svg" alt=""
+                    class="absolute bottom-[70%] right-[5%] w-10 opacity-40" />
+                <img loading="lazy" src="/icons/haddi-light.svg" alt=""
+                    class="absolute top-[70%] right-[80%] w-12 opacity-60" />
+                <img loading="lazy" src="/icons/dogFoot-orange.svg" alt=""
+                    class="absolute bottom-[18%] left-[10%] w-8 opacity-50" />
+                <img loading="lazy" src="/icons/dogFoot.svg" alt=""
+                    class="absolute bottom-[30%] right-[5%] w-10 opacity-40" />
+            </div>
+
+            <div class="container-custom relative z-10">
+
+                <div class="max-w-5xl mx-auto text-center mb-12" data-animate>
+
+
+                    <h2
+                        class="relative inline-block text-2xl md:text-3xl lg:text-[46px] font-medium text-brand-dark lg:leading-[54px]">
+
+                        <img loading="lazy" src="/icons/icon.svg" alt=""
+                            class="absolute -left-8 -top-2 w-7 h-7 md:w-9 md:h-9 md:-left-10 md:-top-3" />
+
+                        <span>Curious? let’s clear things up.</span>
+                    </h2>
+
+
+
+                    <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7 max-w-3xl mt-4 mx-auto">
+                        We know leaving your pet in someone else's care comes with questions. That's why we've answered
+                        the
+                        most common ones to help you feel confident and informed.
+                    </p>
+                </div>
+
+
+                <div class="max-w-3xl mx-auto space-y-4" data-animate>
+
+
+                    <div class="faq-item">
+
+
+                        <button type="button" class="faq-button w-full flex items-center justify-between px-6 py-5 
+      text-left text-[17px] md:text-[18px] font-medium text-brand-dark
+      border border-gray-200 rounded-2xl transition-all duration-300" aria-expanded="false">
+
+                            <span>How often should I bring my pet in for grooming?</span>
+
+                            <span
+                                class="faq-icon flex-shrink-0 w-8 h-8 rounded-full border-2 border-brand-primary flex items-center justify-center ml-4 transition-all duration-300">
+                                <i class="faq-arrow-icon fa-solid fa-arrow-down text-sm text-brand-primary transition-transform duration-300"
+                                    aria-hidden="true"></i>
+                            </span>
+                        </button>
+
+
+                        <div class="faq-panel hidden px-6 pt-3 pb-6 text-brand-dark text-[17px] leading-7">
+                            Most pets benefit from grooming every 4–6 weeks, but it depends on breed and lifestyle.
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq-item">
+
+
+                        <button type="button" class="faq-button w-full flex items-center justify-between px-6 py-5 
+      text-left text-[17px] md:text-[18px] font-medium text-brand-dark
+      border border-gray-200 rounded-2xl transition-all duration-300" aria-expanded="false">
+
+                            <span>What should I bring when checking my pet into the PetsHotel?</span>
+
+                            <span
+                                class="faq-icon flex-shrink-0 w-8 h-8 rounded-full border-2 border-brand-primary flex items-center justify-center ml-4 transition-all duration-300">
+                                <i class="faq-arrow-icon fa-solid fa-arrow-down text-sm text-brand-primary transition-transform duration-300"
+                                    aria-hidden="true"></i>
+                            </span>
+                        </button>
+
+
+                        <div class="faq-panel hidden px-6 pt-3 pb-6 text-brand-dark text-[17px] leading-7">
+                            When checking your pet into the PetsHotel, please bring their usual food, medications, and
+                            any
+                            comfort items like blankets or toys.
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq-item">
+
+
+                        <button type="button" class="faq-button w-full flex items-center justify-between px-6 py-5 
+      text-left text-[17px] md:text-[18px] font-medium text-brand-dark
+      border border-gray-200 rounded-2xl transition-all duration-300" aria-expanded="false">
+
+                            <span>Is Doggie Day Camp safe for shy or older dogs?</span>
+
+                            <span
+                                class="faq-icon flex-shrink-0 w-8 h-8 rounded-full border-2 border-brand-primary flex items-center justify-center ml-4 transition-all duration-300">
+                                <i class="faq-arrow-icon fa-solid fa-arrow-down text-sm text-brand-primary transition-transform duration-300"
+                                    aria-hidden="true"></i>
+                            </span>
+                        </button>
+
+
+                        <div class="faq-panel hidden px-6 pt-3 pb-6 text-brand-dark text-[17px] leading-7">
+                            Yes, our Doggie Day Camp is designed to be safe and comfortable for all dogs, including shy
+                            or
+                            older ones. Our staff is trained to handle different temperaments and needs.
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq-item">
+
+
+                        <button type="button" class="faq-button w-full flex items-center justify-between px-6 py-5 
+      text-left text-[17px] md:text-[18px] font-medium text-brand-dark
+      border border-gray-200 rounded-2xl transition-all duration-300" aria-expanded="false">
+
+                            <span>What training methods do you use?</span>
+
+                            <span
+                                class="faq-icon flex-shrink-0 w-8 h-8 rounded-full border-2 border-brand-primary flex items-center justify-center ml-4 transition-all duration-300">
+                                <i class="faq-arrow-icon fa-solid fa-arrow-down text-sm text-brand-primary transition-transform duration-300"
+                                    aria-hidden="true"></i>
+                            </span>
+                        </button>
+
+
+                        <div class="faq-panel hidden px-6 pt-3 pb-6 text-brand-dark text-[17px] leading-7">
+                            We use positive reinforcement techniques and modern training approaches to ensure the best
+                            experience for your pet.
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq-item">
+
+
+                        <button type="button" class="faq-button w-full flex items-center justify-between px-6 py-5 
+      text-left text-[17px] md:text-[18px] font-medium text-brand-dark
+      border border-gray-200 rounded-2xl transition-all duration-300" aria-expanded="false">
+
+                            <span>Can I schedule regular check-ups and vaccines here?</span>
+
+                            <span
+                                class="faq-icon flex-shrink-0 w-8 h-8 rounded-full border-2 border-brand-primary flex items-center justify-center ml-4 transition-all duration-300">
+                                <i class="faq-arrow-icon fa-solid fa-arrow-down text-sm text-brand-primary transition-transform duration-300"
+                                    aria-hidden="true"></i>
+                            </span>
+                        </button>
+
+
+                        <div class="faq-panel hidden px-6 pt-3 pb-6 text-brand-dark text-[17px] leading-7">
+                            Yes, we offer comprehensive veterinary services including regular check-ups and vaccinations
+                            to
+                            keep your pet healthy and happy.
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="text-center mt-12" data-animate>
+                    <button type="button"
+                        class="bg-brand-blue text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] inline-flex items-center gap-2 group hover:bg-brand-blueHover transition-all shadow-brand-btn">
+                        <span>Schedule a Free Consultation</span>
+                        <div
+                            class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300">
+                            <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Moments Gallery Section -->
+        <section id="moments" class="py-3 md:py-5 relative overflow-hidden">
+            <div class="relative z-10">
+
+                <div class="pointer-events-none absolute inset-0 z-0 hidden sm:block">
+
+                    <img loading="lazy" src="/icons/pet.svg" alt="Decorative dog"
+                        class="hidden md:block absolute top-0 right-0 w-16 md:w-20 lg:w-24 opacity-80" />
+                </div>
+
+                <div
+                    class="container-custom relative z-10 flex flex-col items-center md:items-start md:flex-row md:items-center md:justify-between w-full">
+
+                    <div class="px-6 py-6 md:px-0" data-animate>
+                        <h2
+                            class="relative inline-block text-2xl md:text-3xl lg:text-[46px] font-medium text-brand-dark lg:leading-[54px]">
+                            <img loading="lazy" src="/icons/icon.svg" alt=""
+                                class="absolute -left-8 -top-3 w-7 h-7 md:w-9 md:h-9 md:-left-10 md:-top-4" />
+                            <span>Moments from our day camp</span>
+                        </h2>
+                    </div>
+
+                    <!-- Button with actual width (w-fit) -->
+                    <button type="button"
+                        class="w-fit ml-6 md:ml-0 bg-brand-blue text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] inline-flex items-center gap-2 group hover:bg-brand-blueHover transition-all shadow-brand-btn">
+                        <span>View Gallery</span>
+                        <div
+                            class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0 transition-transform duration-300">
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </div>
+                    </button>
+
+                </div>
+
+                <div class="overflow-hidden mt-4 md:mt-0 group">
+                    <div class="gallery-track flex items-center gap-0.5 pb-2 px-0">
+                        <figure
+                            class="gallery-item min-w-[220px] sm:min-w-[280px] md:min-w-[320px] lg:min-w-[360px] overflow-hidden">
+                            <img loading="lazy" src="/images/moments/moment (1).webp" alt="Moment 1"
+                                class="w-full h-full object-cover block">
+                        </figure>
+                        <figure
+                            class="gallery-item min-w-[220px] sm:min-w-[280px] md:min-w-[320px] lg:min-w-[360px] overflow-hidden">
+                            <img loading="lazy" src="/images/moments/moment (2).webp" alt="Moment 2"
+                                class="w-full h-full object-cover block">
+                        </figure>
+                        <figure
+                            class="gallery-item min-w-[220px] sm:min-w-[280px] md:min-w-[320px] lg:min-w-[360px]  overflow-hidden">
+                            <img loading="lazy" src="/images/moments/moment (3).webp" alt="Moment 3"
+                                class="w-full h-full object-cover block">
+                        </figure>
+                        <figure
+                            class="gallery-item min-w-[220px] sm:min-w-[280px] md:min-w-[320px] lg:min-w-[360px]  overflow-hidden">
+                            <img loading="lazy" src="/images/moments/moment (4).webp" alt="Moment 4"
+                                class="w-full h-full object-cover block">
+                        </figure>
+                        <figure
+                            class="gallery-item min-w-[220px] sm:min-w-[280px] md:min-w-[320px] lg:min-w-[360px] overflow-hidden">
+                            <img loading="lazy" src="/images/moments/moment (5).webp" alt="Moment 5"
+                                class="w-full h-full object-cover block">
+                        </figure>
+                        <figure
+                            class="gallery-item min-w-[220px] sm:min-w-[280px] md:min-w-[320px] lg:min-w-[360px] overflow-hidden">
+                            <img loading="lazy" src="/images/moments/moment (1).webp" alt="Moment 1"
+                                class="w-full h-full object-cover block">
+                        </figure>
+                        <figure
+                            class="gallery-item min-w-[220px] sm:min-w-[280px] md:min-w-[320px] lg:min-w-[360px]  overflow-hidden">
+                            <img loading="lazy" src="/images/moments/moment (2).webp" alt="Moment 2"
+                                class="w-full h-full object-cover block">
+                        </figure>
+                        <figure
+                            class="gallery-item min-w-[220px] sm:min-w-[280px] md:min-w-[320px] lg:min-w-[360px]  overflow-hidden">
+                            <img loading="lazy" src="/images/moments/moment (3).webp" alt="Moment 3"
+                                class="w-full h-full object-cover block">
+                        </figure>
+                        <figure
+                            class="gallery-item min-w-[220px] sm:min-w-[280px] md:min-w-[320px] lg:min-w-[360px]  overflow-hidden">
+                            <img loading="lazy" src="/images/moments/moment (4).webp" alt="Moment 4"
+                                class="w-full h-full object-cover block">
+                        </figure>
+                        <figure
+                            class="gallery-item min-w-[220px] sm:min-w-[280px] md:min-w-[320px] lg:min-w-[360px]  overflow-hidden">
+                            <img loading="lazy" src="/images/moments/moment (5).webp" alt="Moment 5"
+                                class="w-full h-full object-cover block">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Updates Section -->
+        <section id="updates" class="py-8 md:py-12 bg-white relative overflow-hidden">
+            <div class="pointer-events-none absolute inset-0 z-0 hidden sm:block">
+                <img loading="lazy" src="/icons/dogFoot.svg" alt=""
+                    class="absolute top-[15%] left-[85%] w-12 opacity-90" />
+                <img loading="lazy" src="/icons/dogFoot-orange.svg" alt=""
+                    class="absolute top-[15%] left-[10%] w-10 opacity-50" />
+                <img loading="lazy" src="/icons/haddi-orange.svg" alt=""
+                    class="absolute top-[70%] left-[90%] w-10 opacity-50" />
+                <img loading="lazy" src="/icons/haddi-orange.svg" alt=""
+                    class="absolute top-[90%] left-[25%] w-9 opacity-50" />
+                <img loading="lazy" src="/icons/dogFoot-orange.svg" alt=""
+                    class="absolute -rotate-90 top-[85%] left-[45%] w-13 opacity-50" />
+                <img loading="lazy" src="/icons/haddi-light.svg" alt=""
+                    class="absolute bottom-[70%] right-[10%] w-12 opacity-50" />
+                <img loading="lazy" src="/icons/dogFoot-orange.svg" alt=""
+                    class="absolute top-[35%] left-[70%] w-10 opacity-50" />
+            </div>
+
+            <div class="container-custom relative z-10">
+                <div class="text-center max-w-3xl mx-auto mb-12" data-animate>
+
+                    <h2
+                        class="relative inline-block text-2xl md:text-3xl lg:text-[46px] font-medium text-brand-dark lg:leading-[54px]">
+
+                        <img loading="lazy" src="/icons/icon.svg" alt=""
+                            class="absolute -left-8 -top-2 w-7 h-7 md:w-9 md:h-9 md:-left-10 md:-top-3" />
+
+                        <span>Our recent updation</span>
+                    </h2>
+                    <p class="text-brand-dark mt-4 text-[18px] leading-7">
+                        We provide safe, reliable, and professional care tailored for every pet. From playtime to
+                        medical
+                        checkups, your furry companion is in loving hands.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 xl:grid-cols-3 gap-[38px]">
+
+                    <article data-animate
+                        class="relative bg-white rounded-2xl overflow-visible border border-gray-200 hover:shadow-sm transition-shadow flex flex-col h-full">
+
+                        <div class="relative p-1 w-full h-64">
+                            <img loading="lazy" src="/images/update/update (1).webp" alt="What Does A Dog Walker Do?"
+                                class="w-full rounded-xl h-full object-cover">
+                        </div>
+
+                        <div class="p-6 mb-6 flex flex-col flex-grow">
+                            <div>
+                                <div
+                                    class="flex items-center justify-between w-full py-2 rounded-full text-sm font-semibold text-gray-900">
+
+
+                                    <div class="flex items-center gap-1.5">
+                                        <i class="fa-solid fa-tag text-sm text-brand-dark" aria-hidden="true"></i>
+                                        <span>GROOMING</span>
+                                    </div>
+
+                                    <div class="flex items-center gap-1.5">
+                                        <i class="fa-regular fa-calendar text-sm text-brand-dark"
+                                            aria-hidden="true"></i>
+                                        <time datetime="2025-03-11">MAR 11, 2025</time>
+                                    </div>
+
+                                </div>
+                                <h3 class="text-xl mt-2 font-bold text-brand-dark mb-3">What Does A Dog Walker Do?</h3>
+                                <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7">
+                                    We provide safe, reliable, and professional care tailored for every pet. From
+                                    playtime
+                                    to medical checkups, is in loving hands...
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <button type="button"
+                            class="group absolute z-10 -bottom-5 left-6 inline-flex gap-2 items-center bg-[#293241] text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] shadow-lg hover:bg-brand-blueHover transition-all">
+                            <span>Read More</span>
+                            <div
+                                class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300">
+                                <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                            </div>
+                        </button>
+                    </article>
+
+                    <article data-animate
+                        class="relative bg-white rounded-2xl overflow-visible border border-gray-200 hover:shadow-sm transition-shadow flex flex-col h-full">
+
+                        <div class="relative p-1 w-full h-64">
+                            <img loading="lazy" src="/images/update/update (2).webp" alt="Dog grooming styles"
+                                class="w-full rounded-xl h-full object-cover">
+                        </div>
+
+                        <div class="p-6 mb-6 flex flex-col flex-grow">
+                            <div>
+                                <div
+                                    class="flex items-center justify-between w-full py-2 rounded-full text-sm font-semibold text-gray-900">
+
+
+                                    <div class="flex items-center gap-1.5">
+                                        <i class="fa-solid fa-tag text-sm text-brand-dark" aria-hidden="true"></i>
+                                        <span>GROOMING</span>
+                                    </div>
+
+                                    <div class="flex items-center gap-1.5">
+                                        <i class="fa-regular fa-calendar text-sm text-brand-dark"
+                                            aria-hidden="true"></i>
+                                        <time datetime="2025-03-11">MAR 11, 2025</time>
+                                    </div>
+
+                                </div>
+                                <h3 class="text-xl mt-2 font-bold text-brand-dark mb-3">Dog grooming styles</h3>
+                                <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7">
+                                    We provide safe, reliable, and professional care tailored for every pet. From
+                                    playtime
+                                    to medical checkups, is in loving hands...
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <button type="button"
+                            class="group absolute z-10 -bottom-5 left-6 inline-flex gap-2 items-center bg-[#293241] text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] shadow-lg hover:bg-brand-blueHover transition-all">
+                            <span>Read More</span>
+                            <div
+                                class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300">
+                                <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                            </div>
+                        </button>
+                    </article>
+
+
+                    <article data-animate
+                        class="relative bg-white rounded-2xl overflow-visible border border-gray-200 hover:shadow-sm transition-shadow flex flex-col h-full">
+
+                        <div class="relative p-1 w-full h-64">
+                            <img loading="lazy" src="/images/update/update (3).webp" alt="Pet safety tips"
+                                class="w-full rounded-xl h-full object-cover">
+                        </div>
+
+                        <div class="p-6 mb-6 flex flex-col flex-grow">
+                            <div>
+                                <div
+                                    class="flex items-center justify-between w-full py-2 rounded-full text-sm font-semibold text-gray-900">
+
+
+                                    <div class="flex items-center gap-1.5">
+                                        <i class="fa-solid fa-tag text-sm text-brand-dark" aria-hidden="true"></i>
+                                        <span>GROOMING</span>
+                                    </div>
+
+                                    <div class="flex items-center gap-1.5">
+                                        <i class="fa-regular fa-calendar text-sm text-brand-dark"
+                                            aria-hidden="true"></i>
+                                        <time datetime="2025-03-11">MAR 11, 2025</time>
+                                    </div>
+
+                                </div>
+                                <h3 class="text-xl mt-2 font-bold text-brand-dark mb-3">Pet safety tips</h3>
+                                <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7">
+                                    We provide safe, reliable, and professional care tailored for every pet. From
+                                    playtime
+                                    to medical checkups, is in loving hands...
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <button type="button"
+                            class="group absolute z-10 -bottom-5 left-6 inline-flex gap-2 items-center bg-[#293241] text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] shadow-lg hover:bg-brand-blueHover transition-all">
+                            <span>Read More</span>
+                            <div
+                                class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300">
+                                <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                            </div>
+                        </button>
+                    </article>
+
+
+                </div>
+
+                <div class="text-center mt-12 md:mt-20" data-animate>
+                    <button type="button"
+                        class="bg-brand-blue text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] inline-flex items-center gap-2 group hover:bg-brand-blueHover transition-all shadow-brand-btn">
+                        <span>View More Blogs</span>
+                        <div
+                            class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300">
+                            <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                        </div>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Areas We Serve Section -->
+        <section id="areas" class="pt-20 md:pt-28 relative overflow-hidden"
+            style="background-image: url('/images/main/areaBg.webp'); background-size: cover; background-position: center;">
+
+
+            <div class="pointer-events-none absolute inset-0 z-0">
+                <img loading="lazy" src="/icons/dogFoot.svg" alt=""
+                    class="absolute top-[12%] left-[8%] w-12 opacity-35" />
+                <img loading="lazy" src="/icons/haddi-light.svg" alt=""
+                    class="absolute top-[6%] right-[10%] w-14 opacity-25" />
+                <img loading="lazy" src="/icons/doubleDogIcon.svg" alt=""
+                    class="absolute bottom-[12%] left-[16%] w-40 opacity-65" />
+                <img loading="lazy" src="/icons/haddi-orange.svg" alt=""
+                    class="absolute bottom-[14%] right-[18%] w-10 opacity-30" />
+            </div>
+
+            <div class="relative z-10 w-full">
+
+
+                <div class="text-center mb-12 px-6 lg:px-8" data-animate>
+
+                    <h2
+                        class="relative inline-block text-2xl md:text-3xl lg:text-[46px] font-medium text-brand-dark lg:leading-[54px]">
+
+                        <img loading="lazy" src="/icons/icon.svg" alt=""
+                            class="absolute -left-8 -top-2 w-7 h-7 md:w-9 md:h-9 md:-left-10 md:-top-3" />
+
+                        <span>Areas we serve</span>
+                    </h2>
+                    <p class="mx-auto max-w-3xl text-brand-dark text-[16px]  md:text-[18px] leading-7">
+                        Enter your ZIP code to find out if our pet care services are available near you.
+                        From grooming to vet care, we’ll instantly show what’s offered in your area.
+                    </p>
+                </div>
+
+
+                <div class="relative z-20 -mb-24 md:-mb-32" data-animate>
+
+                    <div
+                        class="bg-gradient-to-b from-[#F7F9FC] via-[#F7F9FC]/60 to-[#F7F9FC]/0 pt-6 pb-16 rounded-t-2xl">
+
+                        <div class="relative w-full md:max-w-xl mx-auto">
+                            <label for="zip-search" class="sr-only">Enter your ZIP code</label>
+                            <input type="text" id="zip-search" name="zip"
+                                placeholder="Enter your ZIP code to check service availability"
+                                aria-label="ZIP code search"
+                                class="w-full rounded-md border border-white/70 bg-white/95 px-6 py-4 text-sm text-brand-dark shadow-md focus:outline-none focus:ring-2 focus:ring-brand-blue" />
+
+                            <button type="button"
+                                class="absolute right-2 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center text-brand-dark"
+                                aria-label="Search ZIP code">
+                                <i class="fa-solid fa-arrow-right text-lg" aria-hidden="true"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="relative w-full z-10" data-animate>
+
+
+                    <div
+                        class="absolute left-[10%] top-[30%] hidden lg:block w-full max-w-[280px] rounded-[12px] bg-white/95 backdrop-blur-xl border border-white/70 shadow-2xl p-4 z-20">
+                        <h3 class="text-xl font-bold text-brand-dark mb-4">Popular Areas</h3>
+
+                        <div class="grid grid-cols-2 gap-3 text-sm text-brand-dark">
+                            <ul class="space-y-2 list-disc list-inside">
+                                <li>Alabama</li>
+                                <li>Alaska</li>
+                                <li>Arizona</li>
+                                <li>Arkansas</li>
+                                <li>California</li>
+                                <li>Colorado</li>
+                            </ul>
+                            <ul class="space-y-2 list-disc list-inside">
+                                <li>Hawaii</li>
+                                <li>Idaho</li>
+                                <li>Illinois</li>
+                                <li>Indiana</li>
+                                <li>Iowa</li>
+                                <li>Kansas</li>
+                            </ul>
+                        </div>
+
+                        <p
+                            class="text-brand-primary font-medium hover:underline hover:text-brand-blue cursor-pointer mt-5">
+                            and many more...
+                        </p>
+                    </div>
+
+
+                    <div class="overflow-hidden bg-white/10 backdrop-blur-sm ">
+                        <iframe class="w-full min-h-[580px]"
+                            src="https://maps.google.com/maps?q=Buffalo,%20NY&output=embed"
+                            title="Map of areas served by Care4Paws" loading="lazy">
+                        </iframe>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white relative overflow-hidden">
+
+        <div class="max-w-[1360px] mx-auto px-6 lg:px-8 pt-16 pb-8 border-b border-dashed border-slate-300">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-8 text-center lg:text-left">
+                <a href="/" class="inline-flex items-center gap-2 shrink-0" aria-label="Care4Paws home">
+                    <img loading="lazy" src="/logo.webp" alt="" aria-hidden="true" class="h-8 w-auto object-contain" />
+                    <span class="text-2xl font-black text-brand-dark">
+                        Care<span class="text-brand-blue">4</span>Paws
+                    </span>
+                </a>
+
+                <address
+                    class="not-italic grid grid-cols-2 lg:flex lg:flex-row gap-x-4 gap-y-5 sm:gap-6 lg:gap-8 w-full lg:w-auto">
+                    <div class="flex items-center gap-3">
+                        <img loading="lazy" src="/icons/icon-location.svg" alt="" aria-hidden="true"
+                            class="w-6 h-6 md:w-7 md:h-7 shrink-0" />
+                        <div class="text-xs text-left">
+                            <p class="text-brand-dark text-[14px] md:text-[16px] leading-tight">1234 Paw Lane,</p>
+                            <p class="text-brand-dark text-[14px] md:text-[16px]">Barktown, CA 90210</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <img loading="lazy" src="/icons/icon-time.svg" alt="" aria-hidden="true"
+                            class="w-6 h-6 md:w-7 md:h-7 shrink-0" />
+                        <div class="text-xs text-left">
+                            <p class="font-bold text-brand-dark text-[14px] md:text-[16px] leading-tight">Mon To Sun:
+                            </p>
+                            <p class="text-brand-dark text-[14px] md:text-[16px]">9:00 AM To 5:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <img loading="lazy" src="/icons/icon-email.svg" alt="" aria-hidden="true"
+                            class="w-6 h-6 md:w-7 md:h-7 shrink-0" />
+                        <div class="text-xs text-left">
+                            <p class="font-bold text-brand-dark text-[14px] md:text-[16px] mb-1 leading-tight">Email Us:
+                            </p>
+                            <a href="mailto:info@care4paws.com"
+                                class="text-brand-dark text-[14px] md:text-[16px] hover:text-brand-primary transition-colors">info@care4paws.com</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <img loading="lazy" src="/icons/icon-phone.svg" alt="" aria-hidden="true"
+                            class="w-6 h-6 md:w-7 md:h-7 shrink-0" />
+                        <div class="text-xs text-left">
+                            <p class="font-bold text-brand-dark leading-tight mb-1">Call Us:</p>
+                            <a href="tel:+8441234567890"
+                                class="text-brand-dark text-[14px] md:text-[16px] hover:text-brand-primary transition-colors">+844
+                                1234 567 890</a>
+                        </div>
+                    </div>
+                </address>
+            </div>
+        </div>
+
+        <div class="relative lg:min-h-[500px] flex items-center py-14 lg:py-0">
+
+            <div class="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden"
+                aria-hidden="true">
+                <span
+                    class="text-[20vw] lg:text-[18vw] font-black text-slate-200/40 tracking-tighter whitespace-nowrap select-none">Care4Paws</span>
+            </div>
+
+            <div class="hidden lg:flex absolute inset-0 justify-center items-end pointer-events-none"
+                aria-hidden="true">
+                <img loading="lazy" src="/images/main/footerImg.webp" alt=""
+                    class="h-[60%] md:h-[80%] lg:h-[90%] w-auto object-contain object-bottom opacity-90" />
+            </div>
+
+            <div class="max-w-[1360px] mx-auto px-6 lg:px-8 relative z-20 w-full">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-[38px] items-center">
+
+                    <div class="w-full max-w-md mx-auto lg:mx-0 text-center lg:text-left order-2 lg:order-1">
+                        <h2
+                            class="text-2xl md:text-3xl lg:text-[40px] font-semibold text-brand-dark lg:leading-[50px] mb-4">
+                            Are you ready to get started?
+                        </h2>
+                        <p class="text-brand-dark text-[16px]  md:text-[18px] font-semibold leading-7 mb-8">Pet care
+                            company offering
+                            reliable and compassionate care for dogs, cats.</p>
+
+                        <div class="flex flex-col items-center lg:items-start gap-8">
+                            <button type="button"
+                                class="bg-brand-blue text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] flex items-center gap-2 group hover:bg-brand-blueHover transition-all shadow-brand-btn">
+                                <span>Book Now</span>
+                                <span
+                                    class="bg-white w-8 h-8 rounded-full flex items-center justify-center text-brand-primary -rotate-45 group-hover:rotate-0  transition-transform duration-300"
+                                    aria-hidden="true">
+                                    <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i>
+                                </span>
+                            </button>
+
+                            <nav aria-label="Social media">
+                                <ul class="flex gap-5 md:gap-1 list-none p-0 m-0">
+                                    <li>
+                                        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"
+                                            aria-label="Follow us on Facebook"
+                                            class="w-9 h-9 md:w-12 md:h-12 inline-flex items-center justify-center text-brand-dark hover:text-brand-primary transition">
+                                            <i class="fa-brands fa-facebook-f text-lg" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://x.com/" target="_blank" rel="noopener noreferrer"
+                                            aria-label="Follow us on X (Twitter)"
+                                            class="w-9 h-9 md:w-12 md:h-12 inline-flex items-center justify-center text-brand-dark hover:text-brand-primary transition">
+                                            <i class="fa-brands fa-x-twitter text-lg" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"
+                                            aria-label="Follow us on Instagram"
+                                            class="w-9 h-9 md:w-12 md:h-12 inline-flex items-center justify-center text-brand-dark hover:text-brand-primary transition">
+                                            <i class="fa-brands fa-instagram text-lg" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://tiktok.com/" target="_blank" rel="noopener noreferrer"
+                                            aria-label="Follow us on TikTok"
+                                            class="w-9 h-9 md:w-12 md:h-12 inline-flex items-center justify-center text-brand-dark hover:text-brand-primary transition">
+                                            <i class="fa-brands fa-tiktok text-lg" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <p
+                                class="text-[14px] md:text-[16px] text-brand-dark font-medium tracking-wide text-center lg:text-left">
+                                &copy; 2025 All Rights Reserved. |
+                                <a href="/terms"
+                                    class="hover:underline text-brand-dark text-[16px] md:text-[18px]">Terms</a> |
+                                <a href="/privacy"
+                                    class="hover:underline text-brand-dark text-[16px] md:text-[18px]">Privacy</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center lg:items-end order-1 lg:order-2">
+                        <div
+                            class="bg-[#F3F7FA] p-6 md:p-10 rounded-[30px] border border-[#D9E3EE] shadow-sm w-full max-w-md relative overflow-hidden">
+                            <img loading="lazy" src="/icons/dogFoot.svg" alt="" aria-hidden="true"
+                                class="absolute top-0 right-0 p-2 w-[15%] opacity-90 pointer-events-none select-none" />
+
+                            <h3 class="text-2xl font-bold text-[#1A2D42] mb-2">Subscribe</h3>
+                            <p class="text-brand-dark text-[16px]  md:text-[18px] leading-7 mb-8">
+                                Join our newsletter to stay updated on features and releases.
+                            </p>
+
+                            <form action="#" method="post" novalidate class="space-y-4">
+                                <div>
+                                    <label for="footer-email" class="sr-only">Email address</label>
+                                    <input type="email" id="footer-email" name="email" placeholder="Enter Your Email"
+                                        autocomplete="email" required
+                                        class="w-full bg-white border border-[#C5D6EA] rounded-full px-6 py-4 outline-none focus:ring-2 focus:ring-brand-blue/30 text-brand-dark placeholder:text-brand-dark shadow-sm" />
+                                </div>
+                                <button type="submit"
+                                    class="bg-brand-blue w-full text-white pl-6 pr-2 py-[9px] rounded-full font-medium text-[15px] flex items-center justify-between gap-2 group hover:bg-brand-blueHover transition-all">
+                                    <span>Subscribe</span>
+                                    <span
+                                        class="bg-white w-9 h-9 rounded-full flex items-center justify-center text-brand-primary"
+                                        aria-hidden="true">
+                                        <i class="fa-solid fa-arrow-right text-xs -rotate-45 group-hover:rotate-0  transition-transform duration-300"
+                                            aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                            </form>
+                        </div>
+
+                        <p class="mt-4 text-[14px] md:text-[16px] text-brand-dark text-center lg:text-right">
+                            Design and Developed by
+                            <a href="https://www.pixlogix.com/" target="_blank" rel="noopener noreferrer"
+                                class="underline font-medium text-brand-dark">Pixlogix</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/js/main.js"></script>
+</body>
+
+</html>

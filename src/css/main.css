@@ -1,0 +1,209 @@
+/* Import fonts */
+@import './fonts.css';
+
+/* Import variables */
+@import './variables.css';
+
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white font-inter;
+    color: #293241;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  h1, h2 {
+    color: #293241;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 54px;
+    letter-spacing: 0;
+  }
+
+  h3 {
+    @apply text-2xl font-medium;
+    color: #293241;
+    line-height: 1.3;
+  }
+
+  h4 {
+    @apply text-xl font-medium;
+    color: #293241;
+  }
+
+  h5 {
+    @apply text-lg font-medium;
+    color: #293241;
+  }
+
+  h6 {
+    @apply text-base font-medium;
+    color: #293241;
+  }
+
+  p {
+    color: #293241;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  a {
+    @apply text-brand-primary hover:text-brand-primary transition-colors;
+  }
+
+  button {
+    @apply font-medium transition-colors;
+  }
+}
+
+/* Custom Component Styles */
+@layer components {
+  /* Primary CTA button — matches Figma spec:
+     height 50px, radius 64px, padding 8px 8px 8px 24px, gap 8px */
+  .btn-cta {
+    @apply inline-flex items-center gap-2 bg-brand-blue text-white rounded-full font-medium text-[15px]
+           hover:bg-brand-blueHover transition-all shadow-brand-btn;
+    padding: 9px 8px 9px 24px;
+    height: 50px;
+    border-radius: 64px;
+  }
+
+  .btn-cta-dark {
+    @apply inline-flex items-center gap-2 text-white rounded-full font-medium text-[15px]
+           hover:bg-brand-blueHover transition-all shadow-brand-btn;
+    background-color: #293241;
+    padding: 9px 8px 9px 24px;
+    height: 50px;
+    border-radius: 64px;
+  }
+
+  .btn-icon-circle {
+    @apply flex-shrink-0 bg-white rounded-full flex items-center justify-center text-brand-primary
+           group-hover:rotate-45 transition-transform duration-300;
+    width: 32px;
+    height: 32px;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 border-2 border-brand-primary text-brand-primary rounded-full font-medium hover:bg-brand-primary hover:text-white transition-colors;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow;
+  }
+
+  /* 12-column container — 1360px max (284px auto-margins at 1920px canvas) */
+  .container-custom {
+    @apply max-w-[1360px] mx-auto px-6 lg:px-8;
+  }
+
+  .section {
+    @apply py-16 md:py-24;
+  }
+}
+
+/* Font Awesome Icon Styles */
+@layer utilities {
+  .icon-sm {
+    @apply w-4 h-4;
+  }
+
+  .icon-md {
+    @apply w-6 h-6;
+  }
+
+  .icon-lg {
+    @apply w-8 h-8;
+  }
+
+  .icon-xl {
+    @apply w-12 h-12;
+  }
+}
+
+/* Custom Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+
+@layer utilities {
+  .section-title {
+    position: relative;
+  }
+
+  .section-title::before {
+    content: "";
+    position: absolute;
+    left: -4%;
+    top: 0%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    background-image: url("/icons/icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .section-title-center {
+    position: relative;
+  }
+
+  .section-title-center::before {
+    content: "";
+    position: absolute;
+    left: 18px;
+    top: 0px;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    background-image: url("/icons/icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .blob-shape {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: rotate(-5deg);
+  }
+
+  .gallery-track {
+    animation: gallery-scroll 18s linear infinite;
+    will-change: transform;
+  }
+
+  .gallery-track:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes gallery-scroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
