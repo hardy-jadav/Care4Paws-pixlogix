@@ -42,20 +42,11 @@ npm install
 npm run dev
 ```
 
-Runs on: http://localhost:5173
-
 ### Production Build
 
 ```bash
 npm run build
 ```
-
-### Preview Build
-
-```bash
-npm run preview
-```
-
 ---
 
 ## 📁 Project Structure
