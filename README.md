@@ -25,8 +25,7 @@ A fully responsive single-page marketing website for a professional pet care com
 ## ⚙️ Getting Started
 
 ### Prerequisites
-- Node.js 18+
-- npm 9+
+- Node.js
 
 ### Installation
 
@@ -52,7 +51,7 @@ npm run build
 ## 📁 Project Structure
 
 ```
-Hardy-pix-main/
+Care4Paws/
 ├── public/        # Static assets
 ├── src/
 │   ├── css/       # Styles
